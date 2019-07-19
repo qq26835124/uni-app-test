@@ -1,0 +1,41 @@
+
+.uni-swiper_{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4.4em;
+  bottom: 4.4em;
+}
+.tabbar{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4.4em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-top: 1px solid #e2e2e2;
+}
+.tabbar .tab{
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: center;
+  width: 4.4em;
+  height: 4.4em;
+  color: #9c9c9c;
+}
+.tab .text{
+  display: block;
+  margin: 0 auto;
+}
+.tab .icon{
+  display: block;
+  margin: 0 auto;
+  margin-top: 16rpx;
+}
+
+page::after{position:fixed;content:'';left:-1000px;top:-1000px;-webkit-animation:shadow-preload .1s;-webkit-animation-delay:3s;animation:shadow-preload .1s;animation-delay:3s}@-webkit-keyframes shadow-preload{0%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}100%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}}@keyframes shadow-preload{0%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}100%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}}

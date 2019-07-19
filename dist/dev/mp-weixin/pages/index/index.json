@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "党建阵地",
+  "usingComponents": {
+    "wuc-tab": "/components/wuc-tab/wuc-tab",
+    "media-list": "/pages/component/mediaList"
+  }
+}
